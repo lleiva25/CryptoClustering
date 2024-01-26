@@ -12,7 +12,9 @@ Prepare the Data:
   2. Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
   3. The first five rows of the scaled data frame should appear as follows:
      
-    <img width="896" alt="Screenshot 2024-01-26 at 9 15 52 AM" src="https://github.com/lleiva25/CryptoClustering/assets/140974405/8666707b-f4d5-43fd-9dbe-0846b3021146">
+<img width="903" alt="Screenshot 2024-01-26 at 9 30 07 AM" src="https://github.com/lleiva25/CryptoClustering/assets/140974405/708633a7-acf3-4e0d-afdd-8a2ec269f129">
+
+
 
 Find the Best Value for k Using the Original Scaled DataFrame:
   1. Use the elbow method to find the best value for k using the following steps:
@@ -72,3 +74,9 @@ Cluster Cryptocurrencies with K-means Using the PCA Data:
            - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
   4. Answer the following question:
            - What is the impact of using fewer features to cluster the data using K-Means?
+
+![image](https://github.com/lleiva25/CryptoClustering/assets/140974405/2d20a783-d9e3-408e-93e9-d80b3c8a77e3)
+
+![image](https://github.com/lleiva25/CryptoClustering/assets/140974405/0509fc7c-23c0-47c0-9485-84bf940e14c3)
+
+
